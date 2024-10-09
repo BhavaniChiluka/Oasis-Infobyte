@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3-Temperature Converter</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Temperature Converter</h1>
+        <form id="converter-form">
+            <label for="temperature">Temperature</label>
+            <input type="number" id="temperature" name="temperature" placeholder="Enter temperature" required>
+            <label for="type">Type</label>
+            <select id="type" name="type" required>
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            <label for="result">Result</label>
+            <input type="text" id="result" name="result" readonly>
+            <button type="submit" id="convert-btn">Convert</button>
+        </form>
+    </div>
+
+    <script src="task3.js"></script>
+</body>
+</html>
